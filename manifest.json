@@ -1,0 +1,29 @@
+Set-Content -Path "$HOME\twistedsoul\soul-backend\manifest.json" -Value @'
+{
+  "protocol": {
+    "name": "Twisted Soul Protocol",
+    "symbol": "SOUL",
+    "tagline": "One coin to bind the ritual. No gods, only code."
+  },
+  "token": {
+    "name": "Test Soul",
+    "symbol": "SOUL",
+    "supply": "1000000000",
+    "description": "Test token.",
+    "twitter": "",
+    "telegram": "",
+    "website": ""
+  },
+  "bindings": {
+    "lockLiquidity": true,
+    "renounceMint": true,
+    "noGodWallet": true,
+    "openSource": true
+  },
+  "meta": {
+    "rugRisk": "0 / 100",
+    "warnings": [],
+    "generatedAt": "now"
+  }
+}
+'@
